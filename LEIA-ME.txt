@@ -1,0 +1,11 @@
+CHARACTERS SCHOOL — SITE COMPLETO
+
+Este pacote contém a versão de produção do site, com as páginas:
+- / — página principal
+- /obrigado — página de agradecimento
+- /aula — videoaula Premium
+- /aulas — endereço alternativo para a videoaula
+
+As páginas usam uma única aplicação web com rotas. Para hospedagem estática, configure o servidor para redirecionar rotas desconhecidas a /index.html. O arquivo site/_redirects faz isso em provedores compatíveis com Netlify.
+
+O vídeo da aula em português está incluído em site/assets/video/aula-pt.mp4. Imagens e reels da página principal continuam sendo carregados do domínio charactersschool.com; a conversão de preços também depende de acesso à internet.
