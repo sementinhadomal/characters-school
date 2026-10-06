@@ -13,3 +13,127 @@
   font-weight: 500;
   letter-spacing: .01em;
 }
+/* === AULA PAGE — Video Lang Switcher === */
+.lesson-video-wrap { width: 100%; }
+
+.lesson-lang-tabs {
+  display: flex;
+  gap: .5rem;
+  margin-bottom: .75rem;
+}
+
+.lesson-lang-tab {
+  padding: .45rem 1.1rem;
+  border-radius: 20px;
+  border: 2px solid #ccc;
+  background: #f5f5f5;
+  font-size: .85rem;
+  font-weight: 600;
+  cursor: pointer;
+  color: #555;
+  transition: all .18s;
+}
+
+.lesson-lang-tab.active {
+  background: #e8593a;
+  border-color: #e8593a;
+  color: #fff;
+}
+
+.lesson-lang-tab:hover:not(.active) {
+  border-color: #e8593a;
+  color: #e8593a;
+  background: #fff;
+}
+
+/* === AULA PAGE — Income Section === */
+.lesson-income-section {
+  background: #11c98e;
+  padding: 4rem 1.5rem 3rem;
+  margin-top: 3rem;
+}
+
+.lesson-income-inner {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.lesson-income-eyebrow {
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  color: #0a7a58;
+  margin-bottom: .75rem;
+}
+
+.lesson-income-title {
+  font-size: clamp(1.8rem, 5vw, 3rem);
+  font-weight: 900;
+  color: #0e1a14;
+  line-height: 1.1;
+  margin-bottom: .75rem;
+}
+
+.lesson-income-title em {
+  color: #e8593a;
+  font-style: normal;
+}
+
+.lesson-income-desc {
+  font-size: .92rem;
+  color: #0e3a28;
+  max-width: 420px;
+  line-height: 1.55;
+  margin-bottom: 2.5rem;
+}
+
+.lesson-income-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1px;
+  border: 1px solid rgba(0,0,0,.12);
+  background: rgba(0,0,0,.12);
+  margin-bottom: 2rem;
+}
+
+.lesson-income-item {
+  background: #11c98e;
+  padding: 1.25rem 1.2rem 1.25rem 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  cursor: default;
+  transition: background .15s;
+}
+
+.lesson-income-item:hover { background: #0fb880; }
+
+.lesson-income-num {
+  font-size: .72rem;
+  font-weight: 900;
+  color: #0a7a58;
+  letter-spacing: .05em;
+  min-width: 1.4rem;
+  padding-top: .15rem;
+}
+
+.lesson-income-item strong {
+  display: block;
+  font-size: .95rem;
+  color: #0e1a14;
+  margin-bottom: .3rem;
+}
+
+.lesson-income-item p {
+  font-size: .82rem;
+  color: #0e3a28;
+  line-height: 1.5;
+  margin: 0;
+}
+
+.lesson-income-fine {
+  font-size: .72rem;
+  color: #0a7a58;
+  line-height: 1.5;
+  max-width: 700px;
+}
